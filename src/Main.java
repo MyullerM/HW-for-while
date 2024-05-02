@@ -76,9 +76,10 @@ public class Main {
             }
             System.out.println("Задача 8");
             int nowYear = 2024;
-            for (int h = 0; h < nowYear + 100; h = h + 79) {
-                if (h > nowYear - 200) {
-                    System.out.println(h);
+        int theCometAppeared = 0;
+        for (; theCometAppeared < nowYear + 100; theCometAppeared = theCometAppeared + 79) {
+            if (theCometAppeared > nowYear - 200) {
+                System.out.println(theCometAppeared);
                 }
 
             }
